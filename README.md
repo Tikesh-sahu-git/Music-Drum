@@ -21,7 +21,7 @@ A **modern and responsive Drum Machine** built using **HTML, CSS, and JavaScript
 
 ## 🚀 Live Demo
 
-🔗 [Launch the Drum Machine](https://tikesh-sahu-git.github.io/Music-Drum/)  
+🔗 [Launch the Music 🎵 Drum](https://tikesh-sahu-git.github.io/Music-Drum/)  
 <sub>(Make sure your GitHub Pages link is correct!)</sub>
 
 ---
