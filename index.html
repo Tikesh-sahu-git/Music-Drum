@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music 🎵 Drum</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="drum-machine">
+    <div id="display">FCC Drum Machine</div>
+
+    <div class="controls">
+      <div class="control-group">
+        <div class="switch-container">
+          <label for="power">Power</label>
+          <label class="switch">
+            <input type="checkbox" id="power" checked />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="switch-container">
+          <label for="bank">Bank</label>
+          <label class="switch">
+            <input type="checkbox" id="bank" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="volume-container">
+        <label for="volume">Vol</label>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5" />
+      </div>
+    </div>
+
+    <div class="drum-pads">
+      <!-- Drum Pads -->
+      <div class="drum-pad" data-key="Q">Q <audio class="clip" id="Q"></audio></div>
+      <div class="drum-pad" data-key="W">W <audio class="clip" id="W"></audio></div>
+      <div class="drum-pad" data-key="E">E <audio class="clip" id="E"></audio></div>
+      <div class="drum-pad" data-key="A">A <audio class="clip" id="A"></audio></div>
+      <div class="drum-pad" data-key="S">S <audio class="clip" id="S"></audio></div>
+      <div class="drum-pad" data-key="D">D <audio class="clip" id="D"></audio></div>
+      <div class="drum-pad" data-key="Z">Z <audio class="clip" id="Z"></audio></div>
+      <div class="drum-pad" data-key="X">X <audio class="clip" id="X"></audio></div>
+      <div class="drum-pad" data-key="C">C <audio class="clip" id="C"></audio></div>
+    </div>
+
+    <div class="brand">Music 🎵 Drum</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
