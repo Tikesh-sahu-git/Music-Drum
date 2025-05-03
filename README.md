@@ -34,6 +34,8 @@ A **modern and responsive Drum Machine** built using **HTML, CSS, and JavaScript
 ├── script.js → JavaScript logic for sound and interaction
 └── demo-screenshot.png → Screenshot used in README
 
+---
+
 
 ## 🎮 How to Use
 
